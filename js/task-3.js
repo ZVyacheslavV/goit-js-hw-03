@@ -6,7 +6,6 @@ function filterArray(numbers, value) {
     if (element > value) filteredArray.push(element);
   return filteredArray;
 }
-
 /* const filterArray = (numbers, value) => numbers.filter(num => num > value); */
 
 console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5]

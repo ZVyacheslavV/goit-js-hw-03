@@ -3,7 +3,6 @@
 function makeArray(firstArray, secondArray, maxLength) {
   return firstArray.concat(secondArray).slice(0, maxLength);
 }
-
 /* const makeArray = (firstArray, secondArray, maxLength) =>
   firstArray.concat(secondArray).slice(0, maxLength); */
 
